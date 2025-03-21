@@ -79,11 +79,26 @@ responsive.width=1024
 responsive.height=768
 ```
 
-You can also set the browser and responsive mode via system properties when running tests:
+You can also set the browser (CHROME, FIREFOX or SAFARI) and responsive mode (true or false) via system properties when running tests:
 
 ```bash
 mvn clean test -DBrowser=CHROME -DResponsive=false
 ```
 
+## Contributing
 
+Contributions are welcome!
+
+- **Fork** the repository.
+- **Create** a branch for your feature (e.g., `feature/new-feature`).
+- **Commit** your changes and push the branch.
+- **Open** a Pull Request to submit your modifications.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+## Contact
+
+For any questions or suggestions, please contact [sdnry@icloud.com].
 
