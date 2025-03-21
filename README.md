@@ -94,10 +94,6 @@ Contributions are welcome!
 - **Commit** your changes and push the branch.
 - **Open** a Pull Request to submit your modifications.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
 ## Contact
 
 For any questions or suggestions, please contact [sdnry@icloud.com].
