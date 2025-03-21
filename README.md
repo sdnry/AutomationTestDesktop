@@ -48,11 +48,3 @@ To install the project dependencies, run:
 
 ```bash
 mvn clean install
-
-## Running the Tests
-
-To execute the tests, use the following Maven command:
-
-```bash
-mvn clean test
-
