@@ -48,3 +48,42 @@ To install the project dependencies, run:
 
 ```bash
 mvn clean install
+```
+
+## Running the Tests
+
+To execute the tests, use the following Maven command:
+
+```bash
+mvn clean test
+```
+
+Test results will be generated in the /allure-results folder.
+
+## Generating and Viewing the Allure Report
+
+After running the tests, generate and view the Allure report by executing:
+
+```bash
+allure serve /allure-results
+```
+
+This command will start a local server and automatically open your browser with an interactive and detailed report.
+
+## Configuration
+
+Project configuration parameters are stored in the `cucumber.properties` file located in the classpath. You can define various properties, such as:
+
+```properties
+responsive.width=1024
+responsive.height=768
+```
+
+You can also set the browser and responsive mode via system properties when running tests:
+
+```bash
+mvn clean test -DBrowser=CHROME -DResponsive=false
+```
+
+
+
